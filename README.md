@@ -1,30 +1,11 @@
+### Introduce
+This is an e-commerce website.
 
+### Technology Used
+-Back-end: PHP , Laravel.
+-Database: MySql.
 
-### Features :
-- ##### PWA (progressive web app)
-# ====== FRONT-END =======
-
-- Responsive Layout
-- Shopping Cart, Wishlist, Product Reviews
-- Coupons & Discounts
-- Product attributes: cost price, promotion price, stock, size...
-- Blog: category, tag, content, web page 
-- Module/Extension: Shipping, payment, discount, ...
-- Upload manager: banner, images,..
-- SEO support: customer URL b
-- Newsletter management
-- Contact forms with the real-time notification (Laravel Pusher)
-- Related Products, Recommendations for you in our categories
-- A Product search form
-- Laravel Socialite implement(Facebook, Google & twitter) & Customer login
-- Product Share and follow from different social platform...
-- Payment integration(Paypal)
-- Order Tracking system
-- Multi-level comment system
-many more......
-
-## ======= ADMIN =======
-
+### Website Features
 - Admin roles, permission
 - Product manager
 - Media manager using unisharp laravel file manager
@@ -42,12 +23,6 @@ many more......
 - Generate order in pdf form...
 - Real time message & notification
 - Profile Settings
-Many more....
-
-
-## ======= USER DASHBOARD =======
-
-
 - Order management
 - Review Management
 - Comment Management
@@ -94,16 +69,5 @@ Many more....
 
 ![screencapture-e-shop-loc-product-track-2020-08-14-18_51_07](https://user-images.githubusercontent.com/29488275/90719682-bbcdeb00-e2d4-11ea-8e4e-7d6bfab1c421.png)
 
-
- ## Author Contact
-  Contact me with any questions!<br>
-
-  Email: Prajwal.iar@gmail.com
-  Whatsapp: +977-9818441226
-
-  ## License
-  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
-<hr>
-  Copyright © 2023 [Prajwal R.](https://raiprajwal.com/)
   
 <p style="text-align:center">Thank You so much for your time !!!</p>
