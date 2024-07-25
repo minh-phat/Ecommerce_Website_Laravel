@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
 	@include('frontend.layouts.head')	
 </head>

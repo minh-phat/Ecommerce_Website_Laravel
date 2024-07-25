@@ -15,6 +15,7 @@
     use App\Http\Controllers\PayPalController;
     use App\Http\Controllers\NotificationController;
     use App\Http\Controllers\HomeController;
+    use App\Http\Controllers\LanguageController;
     use \UniSharp\LaravelFilemanager\Lfm;
 
     /*
@@ -38,6 +39,9 @@
 
     // STORAGE LINKED ROUTE
     Route::get('storage-link',[AdminController::class,'storageLink'])->name('storage.link');
+
+    //Route set language
+    Route::get('/set-language/{locale}', [LanguageController::class, 'setLanguage'])->name('set.language');
 
 
     Auth::routes(['register' => false]);
