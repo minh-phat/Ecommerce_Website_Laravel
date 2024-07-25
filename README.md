@@ -2,8 +2,8 @@
 This is an e-commerce website.
 
 ### Technology Used
--Back-end: PHP , Laravel.
--Database: MySql.
+- Back-end: PHP , Laravel.
+- Database: MySql.
 
 ### Website Features
 - Admin roles, permission
