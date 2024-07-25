@@ -25,8 +25,6 @@ class FrontendController extends Controller
     }
 
     public function home(){
-        $homeMessage = __('Home');
-        $helloMessage = __('hello', ['name' => 'John']);
 
         $featured=Product::where('status','active')->where('is_featured',1)->orderBy('price','DESC')->limit(2)->get();
         $posts=Post::where('status','active')->orderBy('id','DESC')->limit(3)->get();
