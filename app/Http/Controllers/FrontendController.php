@@ -25,6 +25,9 @@ class FrontendController extends Controller
     }
 
     public function home(){
+        $homeMessage = __('Home');
+        $helloMessage = __('hello', ['name' => 'John']);
+
         $featured=Product::where('status','active')->where('is_featured',1)->orderBy('price','DESC')->limit(2)->get();
         $posts=Post::where('status','active')->orderBy('id','DESC')->limit(3)->get();
         $banners=Banner::where('status','active')->limit(3)->orderBy('id','DESC')->get();
@@ -37,7 +40,8 @@ class FrontendController extends Controller
                 ->with('posts',$posts)
                 ->with('banners',$banners)
                 ->with('product_lists',$products)
-                ->with('category_lists',$category);
+                ->with('category_lists',$category)
+                ;
     }   
 
     public function aboutUs(){
